@@ -40,12 +40,14 @@
 	function custom_word_count_column_style() {
 	    echo '<style>
 	        .column-word_count {
-	            width: 100px;
+	            min-width: 100px;
 	            text-align: left;
 	        }
 
 	        .column-title {
-	        	
+	        	min-width: 300px;
+	            width: 30%;
+	            text-align: left;
 	        }
 
 	        #wpfooter {
